@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg {
+    background: url('https://media.evo.co.uk/image/upload/v1581606140/evo/2020/02/Ford%20Mustang%20Mach%201-5.jpg') 
+        no-repeat center center/ cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1; /* adicionar um índice Z negativo, para que fique atrás do zero por cento ou quaisquer que sejam a % */
+    filter: blur(0px); 
+}
+
+.loading-text {
+    font-size: 50px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
